@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt 
-fig,ax=plt.subplot()
+fig,ax=plt.subplots()
 
 fruits = ['a','o','b','l']
 counts = [10,29,30,20]
@@ -20,7 +20,7 @@ dog = ['bored','bored','bored','happy','happy','bored']
 activity=['combing','eating','play','sleep','bark','enjoy']
 
 
-fig,ax=plt.subplot()
+fig,ax=plt.subplots()
 
 ax.plot(activity,dog,label='dog')
 ax.plot(activity,cat,label='cat')
