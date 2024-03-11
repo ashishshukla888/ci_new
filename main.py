@@ -19,6 +19,7 @@ cat = ['bored','happy','happy','happy','happy','bored']
 dog = ['bored','bored','bored','happy','happy','bored']
 activity=['combing','eating','play','sleep','bark','enjoy']
 
+# adding new things 
 
 fig,ax=plt.subplots()
 
